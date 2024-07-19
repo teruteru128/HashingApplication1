@@ -6,8 +6,6 @@
 #include <iostream>
 #include <stdio.h>
 
-#include <bcrypt.h>
-
 #define NT_SUCCESS(Status)          (((NTSTATUS)(Status)) >= 0)
 
 #define STATUS_UNSUCCESSFUL         ((NTSTATUS)0xC0000001L)
